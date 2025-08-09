@@ -1,0 +1,1 @@
+Raspberry Pi Camera v2 cover and tripod mount by aimfeld on Thingiverse: https://www.thingiverse.com/thing:3002899
