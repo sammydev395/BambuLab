@@ -3,7 +3,7 @@
 (Exported by FreeCAD for UC-CNC)
 (Post Processor: uccnc_post, version 0.0.4)
 (CAM file: E:/BambuLab/ArmPi_mini/CameraMount.FCStd)
-(Output Time: 2025-08-13 11:42:53.950974)
+(Output Time: 2025-08-15 13:16:00.794479)
 (Units: 'mm' and 'mm/min')
 (preamble: begin)
 G17 (Default: XY-plane)
@@ -123,6 +123,37 @@ G0 Z6.000
 M6 T5
 (operation done: TC_6.35mm_Endmill)
 (operation finalised: TC_6.35mm_Endmill)
+(operation initialise: Mill Big Hole)
+(operation start: Mill Big Hole)
+(Mill Big Hole)
+(Compensated Tool Path. Diameter: 6.35)
+G0 Z6.000
+G0 X3.375 Y5.210
+G0 Z4.000
+G1 X3.375 Z-0.500
+G2 X0.927 Y-2.859 I-3.380 J-3.380 K0.000
+G2 X-0.938 Y6.519 I-0.933 J4.689
+G2 X3.375 Y5.210 I0.933 J-4.689
+G1 Z-1.000
+G2 X0.927 Y-2.859 I-3.380 J-3.380
+G2 X-0.938 Y6.519 I-0.933 J4.689
+G2 X3.375 Y5.210 I0.933 J-4.689
+G1 Z-1.500
+G2 X0.927 Y-2.859 I-3.380 J-3.380
+G2 X-0.938 Y6.519 I-0.933 J4.689
+G2 X3.375 Y5.210 I0.933 J-4.689
+G1 Z-2.000
+G2 X0.927 Y-2.859 I-3.380 J-3.380
+G2 X-0.938 Y6.519 I-0.933 J4.689
+G2 X3.375 Y5.210 I0.933 J-4.689
+G1 Z-2.100
+G2 X0.927 Y-2.859 I-3.380 J-3.380
+G2 X-0.938 Y6.519 I-0.933 J4.689
+G2 X3.375 Y5.210 I0.933 J-4.689
+G0 Z6.000
+G0
+(operation done: Mill Big Hole)
+(operation finalised: Mill Big Hole)
 (operation initialise: Mill Outside Contour)
 (operation start: Mill Outside Contour)
 (Mill Outside Contour)
@@ -259,37 +290,6 @@ G0 Z6.000
 G0
 (operation done: Mill Outside Contour)
 (operation finalised: Mill Outside Contour)
-(operation initialise: Mill Big Hole)
-(operation start: Mill Big Hole)
-(Mill Big Hole)
-(Compensated Tool Path. Diameter: 6.35)
-G0 Z6.000
-G0 X3.375 Y5.210
-G0 Z4.000
-G1 X3.375 Z-0.500
-G2 X0.927 Y-2.859 I-3.380 J-3.380 K0.000
-G2 X-0.938 Y6.519 I-0.933 J4.689
-G2 X3.375 Y5.210 I0.933 J-4.689
-G1 Z-1.000
-G2 X0.927 Y-2.859 I-3.380 J-3.380
-G2 X-0.938 Y6.519 I-0.933 J4.689
-G2 X3.375 Y5.210 I0.933 J-4.689
-G1 Z-1.500
-G2 X0.927 Y-2.859 I-3.380 J-3.380
-G2 X-0.938 Y6.519 I-0.933 J4.689
-G2 X3.375 Y5.210 I0.933 J-4.689
-G1 Z-2.000
-G2 X0.927 Y-2.859 I-3.380 J-3.380
-G2 X-0.938 Y6.519 I-0.933 J4.689
-G2 X3.375 Y5.210 I0.933 J-4.689
-G1 Z-2.100
-G2 X0.927 Y-2.859 I-3.380 J-3.380
-G2 X-0.938 Y6.519 I-0.933 J4.689
-G2 X3.375 Y5.210 I0.933 J-4.689
-G0 Z6.000
-G0
-(operation done: Mill Big Hole)
-(operation finalised: Mill Big Hole)
 (postamble: begin)
 M05 (stop spindle)
 G17 (Default: XY-plane)
