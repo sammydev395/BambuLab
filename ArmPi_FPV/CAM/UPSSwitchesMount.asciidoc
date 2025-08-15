@@ -1,0 +1,118 @@
+
+= Setup Report for FreeCAD Job: Job
+:toc:
+:icons: font
+:imagesdir: ""
+:data-uri:
+
+== Part Information
+
+|===
+|*Base Object(s)* a| !===
+! root001 ! 1
+!=== .7+a|image::E:/BambuLab/ArmPi_mini/CAM\baseimage_t.png[Base Object(s)]
+|*Job Sequence*|1 of 1|*Job Type*|2.5D Milling|*Job Description*||*CAD File Name*|E:/BambuLab/ArmPi_mini/UPSSwitchesMount.FCStd|*Last Save Date*|2025-08-15T15:44:41Z|*Customer*||*Designer*|
+|===
+
+
+== Run Summary
+
+|===
+|*Operation*|*Minimum Z Height*|*Maximum Z Height*|*Coolant*|*Cycle Time*
+|Slot|-3.00 mm|28.00 mm|None|Cycletime Error|12mm_Hole|-3.50 mm|28.00 mm|None|Cycletime Error|7mm_Hole|-3.50 mm|28.00 mm|None|Cycletime Error|*TOTAL JOB* |179769313486231555533875053856505798803966983337549725144993764094185458651151213850686011511010749505456035650522295998956212676040672471104489198065086051951765829958310720251202056558639618106677688700051013325114820661488804874226791012312959433344499677148806642254843733913412106056943174918862798848.00 m |-179769313486231555533875053856505798803966983337549725144993764094185458651151213850686011511010749505456035650522295998956212676040672471104489198065086051951765829958310720251202056558639618106677688700051013325114820661488804874226791012312959433344499677148806642254843733913412106056943174918862798848.00 m |00:00:00
+|===
+
+== Rough Stock
+
+|===
+|*Material*|Not Specified .4+a|image::E:/BambuLab/ArmPi_mini/CAM\stockImage_t.png[stock]
+|*X Size*|12.00 mm|*Y Size*|11.91 mm|*Z Size*|50.00 mm
+|===
+
+== Tool Data
+
+=== Tool Number: T2
+|===
+|*Description*| 6mm_Endmill001 a| image::E:/BambuLab/ArmPi_mini/CAM\T2.png[2]
+|*Manufacturer* 2+| 
+|*Part Number* 2+| 
+|*URL* 2+| 
+|*Inspection Notes* 2+| 
+|*Tool Shape* 2+| endmill
+|*Tool Diameter* 2+| 6.35 mm
+|===
+|===
+|*Operation*|*Tool Controller*|*Feed Rate*|*Spindle Speed*
+|Slot|TC_6.35mm_Endmill|0.0 mm/s|0.0
+|===
+
+=== Tool Number: T4
+|===
+|*Description*| 7mm_Drill a| image::E:/BambuLab/ArmPi_mini/CAM\T4.png[4]
+|*Manufacturer* 2+| 
+|*Part Number* 2+| 
+|*URL* 2+| 
+|*Inspection Notes* 2+| 
+|*Tool Shape* 2+| drill
+|*Tool Diameter* 2+| 7.0 mm
+|===
+|===
+|*Operation*|*Tool Controller*|*Feed Rate*|*Spindle Speed*
+|7mm_Hole|TC_7mm_Drill|0.0 mm/s|0.0
+|===
+
+=== Tool Number: T5
+|===
+|*Description*| 12mm_Drill001 a| image::E:/BambuLab/ArmPi_mini/CAM\T5.png[5]
+|*Manufacturer* 2+| 
+|*Part Number* 2+| 
+|*URL* 2+| 
+|*Inspection Notes* 2+| 
+|*Tool Shape* 2+| drill
+|*Tool Diameter* 2+| 12.0 mm
+|===
+|===
+|*Operation*|*Tool Controller*|*Feed Rate*|*Spindle Speed*
+|12mm_Hole|TC_12mm_Drill|0.0 mm/s|0.0
+|===
+
+
+
+== Output (Gcode)
+
+|===
+|*G-code File*|
+|*Last Post Process Date*|
+|*Stops*|False
+|*Programmer*|
+|*Machine*|
+|*Postprocessor*|fanuc
+|*Post Processor Flags*|
+|*File Size (kB)*|0.0
+|*Line Count*|0
+
+|===
+
+== Fixtures and Workholding
+
+|===
+|*Work Offsets*|['G54']
+|*Order By*|Fixture
+|*Part Datum* a| image::E:/BambuLab/ArmPi_mini/CAM\origin_t.png[]
+|===
+
+== Squawks
+
+|===
+|*Note*|*Operator*|*Date*
+a|WARNING: Tool Controller 'TC_6.35mm_Endmill' has no feedrate|PathSanity|2025-08-15 07:34:54.656421
+a|WARNING: Tool Controller 'TC_6.35mm_Endmill' has no spindlespeed|PathSanity|2025-08-15 07:34:54.656421
+a|WARNING: Tool Controller 'TC_7mm_Drill' has no feedrate|PathSanity|2025-08-15 07:34:54.656421
+a|WARNING: Tool Controller 'TC_7mm_Drill' has no spindlespeed|PathSanity|2025-08-15 07:34:54.656421
+a|WARNING: Tool Controller 'TC_12mm_Drill' has no feedrate|PathSanity|2025-08-15 07:34:54.656421
+a|WARNING: Tool Controller 'TC_12mm_Drill' has no spindlespeed|PathSanity|2025-08-15 07:34:54.656421
+a|NOTE: The Job has not been post-processed|PathSanity|2025-08-15 07:34:54.656421
+a|TIP: Consider Specifying the Stock Material|PathSanity|2025-08-15 07:34:54.656421
+
+|===
+
